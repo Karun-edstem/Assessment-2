@@ -12,25 +12,45 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <aside>
       <header>
-        <strong>GRC </strong> REGISTER
-        <i class="fa-light fa-left-from-bracket"></i>
+        <div class="heading"><strong>GRC </strong> REGISTER</div>
+        <div class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </header>
       <ul>
-        <li><i class="fa-regular fa-envelope-open"></i>Dashboard</li>
-        <li><i class="fa-solid fa-table-cells"></i>Modules</li>
         <li>
-          <i class="fa-solid fa-user-group"></i>Loss Events & Issue Management
+          <i class="fa-regular fa-envelope-open"></i>
+          <p>Dashboard</p>
         </li>
-        <li><i class="fa-solid fa-ticket"></i>New Product Approval</li>
-        <li><i class="fa-solid fa-shapes"></i>Third Party Management</li>
         <li>
-          <i class="fa-regular fa-file-lines"></i>Business Risk Self Assessment
+          <i class="fa-solid fa-table-cells"></i>
+          <p>Modules</p>
         </li>
-        <li><i class="fa-regular fa-star"></i>User Access Request</li>
+        <li>
+          <i class="fa-solid fa-user-group"></i>
+          <p>Loss Events & Issue Management</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-ticket"></i>
+          <p>New Product Approval</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-shapes"></i>
+          <p>Third Party Management</p>
+        </li>
+        <li>
+          <i class="fa-regular fa-file-lines"></i>
+          <p>Business Risk Self Assessment</p>
+        </li>
+        <li>
+          <i class="fa-regular fa-star"></i>
+          <p>User Access Request</p>
+        </li>
       </ul>
     </aside>
     <div class="content">
@@ -38,26 +58,32 @@
         <strong>GRC </strong> REGISTER
         <i class="fa-light fa-left-from-bracket"></i>
       </div>
-      <div class="menu"><i class="fa-solid fa-bars"></i> Menu</div>
       <div class="top-nav">
-        <input type="text" placeholder="  Search" />
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="  Search" />
+        </div>
         <div class="account">
           <i class="fa-regular fa-bell"></i>
           <img src="download.png" alt="avatar, profile picture" />
           <i class="fa-solid fa-chevron-down"></i>
         </div>
       </div>
+      <div class="resp-menu">
+        <div class="menu"><i class="fa-solid fa-bars"></i> Menu</div>
+      </div>
       <div class="main-content">
         <h1>Loss Events & Issue Management</h1>
         <h3>Dashboard / Loss Events & Issue Management</h3>
-
         <div class="btn-grp">
           <button class="btn-1">Confirmed Events</button>
           <button class="btn-2">All Events</button>
         </div>
         <div class="table">
-          <i class="fa-thin fa-magnifying-glass"></i>
-          <input type="text" placeholder="  Search events here..." />
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="  Search events here..." />
+          </div>
           <table style="overflow-x: auto">
             <tr>
               <th>Events Title</th>
