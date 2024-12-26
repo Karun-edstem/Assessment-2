@@ -6,7 +6,7 @@ const hamburgerClose = document.querySelector(".iconClose");
 
 hamburger.addEventListener("click", function () {
   for (const element of hidden) {
-    element.style.display = "none";
+    element.style.left = "0";
   }
   hamburger.style.display = "none";
   hamburgerClose.style.display = "block";
@@ -14,7 +14,7 @@ hamburger.addEventListener("click", function () {
 
 hamburgerClose.addEventListener("click", function () {
   for (const element of hidden) {
-    element.style.display = "flex";
+    element.style.left = "-250px";
   }
   hamburger.style.display = "block";
   hamburgerClose.style.display = "none";

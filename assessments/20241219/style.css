@@ -16,6 +16,17 @@ aside {
   width: 300px;
 }
 
+.iconOpen {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.iconClose {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
 .resp-menu {
   display: none;
 }
@@ -29,8 +40,19 @@ header {
 }
 
 ul {
-  margin-top: 30px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: -250px;
+  width: 250px;
+  transition: left 0.3s ease;
+}
+
+.collapsed {
+  left: 0;
+  width: 60px;
 }
 
 i {
